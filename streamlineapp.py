@@ -9,12 +9,12 @@ scaler1 = pickle.load(open('scaler1.pkl','rb'))
 
 
 #function to load data
-def load_data():
+""" def load_data():
     data = pd.read_csv("model_data.csv")
     #data1 = pd.read_csv()
-    return data
+    return data """
 
-data = load_data()
+#data = load_data()
 
 features = ['store_nbr','city','state','cluster','family','onpromotion','day_of_month','year','month','week_of_year','week_of_year','day_of_week','day_of_year','quarter']
 
@@ -36,8 +36,8 @@ label_encoder = load_label_encoder()
 model = load_model()
 
 # seprate features and target
-selected_features = data[features]
-target = data['sales']
+""" selected_features = data[features]
+target = data['sales'] """
 
 #add background image to th app
 def add_bg_from_local(image_file):
