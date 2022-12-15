@@ -1,4 +1,12 @@
 # Deploying-a-Machine-learning-Model-using-Streamlit
+This project expalins how to deploy a machine learning model by embedding it into a streamlit app. The project explores the following:
+
+ 	Building your model
+ 	Saving your model and other ML items
+ 	Install streamlit and Build the app 
+ 	Loading your model and other items
+ 	Capturing the user input and making the prediction
+
 Embedding a Classification model in a web app using streamlit
 How to run the streamlit app and Make Predictions
 
